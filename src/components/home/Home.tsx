@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import Slider from 'react-slick';
 
+
 // Import slick-carousel CSS
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
@@ -19,15 +20,15 @@ export default function Home() {
 
   const slides = [
     {
-      image: './photos/slide1.jpg',
+      image: "/photos/slide1.jpg",
       caption: 'Zion National Park, 2022',
     },
     {
-      image: './photos/slide2.jpg',
+      image: "/photos/slide2.jpg",
       caption: 'Utah, 2021',
     },
     {
-        image: './photos/slide4.jpg',
+        image: "/photos/slide4.jpg",
         caption: 'South Dakota, 2022',
       },
   ];
