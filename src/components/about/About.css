@@ -1,54 +1,32 @@
-/* About.css */
-
-/* Container for the entire about section */
 .about-section {
     padding: 65px;
     color: #ffffff;
-    background-color: #1e1e1e; /* Match the dark grey styling */
+    background-color: #1e1e1e; 
   }
   
-  /* Flex container for image and text */
   .about-content {
     display: flex;
-    align-items: center; /* Vertically centers the items */
+    align-items: center; 
     font-size: large;
   }
   
-  /* Image styling */
   .about-image {
     width: 200px;
     height: 200;
     object-fit: cover;
-    margin-right: 80px; /* Space between image and text */
+    margin-right: 80px; 
     margin-top: 20px;
   }
   
-  /* Left-align paragraph text */
   .about-section p {
     text-align: left;
-    margin: 0; /* Optional: removes default margins for paragraphs */
+    margin: 10; 
   }
   
-  /* Responsive design: Stack items vertically on smaller screens */
   @media (max-width: 600px) {
     .about-content {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
-  
-    .about-image {
-      margin-right: 0;
-      margin-bottom: 0; /* Space between image and text when stacked */
-    }
-  
-    /* Ensure paragraphs remain left-aligned on smaller screens */
-    .about-section p {
-      text-align: left; /* This rule ensures text stays left-aligned */
-    }
   }
-
-  .about-text {
-    margin-top: 50px;
-  }
-  
