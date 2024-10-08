@@ -1,16 +1,10 @@
 /* Footer.css */
 
 .footer {
-  position: fixed;       /* Fixed position relative to the viewport */
-  bottom: 0;             /* Align to the bottom */
-  left: 0;               /* Align to the left */
-  width: 100%;           /* Full width */
-  background-color: #000000;  /* Black background */
-  color: #ffffff;        /* White text color */
-  text-align: center;    /* Center the text */
-  padding: 10px 0;       /* Vertical padding */
-  z-index: 9999;         /* High z-index to be in front of other elements */
-  font-size: 14px;       /* Adjust text size as needed */
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  /* Add any other styles you need */
 }
 
 body {
@@ -18,6 +12,3 @@ body {
   padding: 0;            /* Reset padding */
 }
 
-.main-content {
-  padding-bottom: 50px;  /* Prevent content from hiding behind the footer */
-}
