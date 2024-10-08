@@ -20,15 +20,15 @@ export default function Home() {
 
   const slides = [
     {
-      image: "/photos/slide1.jpg",
+      image: "/photos/slide1.JPG",
       caption: 'Zion National Park, 2022',
     },
     {
-      image: "/photos/slide2.jpg",
+      image: "/photos/slide2.JPG",
       caption: 'Utah, 2021',
     },
     {
-        image: "/photos/slide4.jpg",
+        image: "/photos/slide4.JPG",
         caption: 'South Dakota, 2022',
       },
   ];
