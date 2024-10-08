@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.hero-section {
+  flex: 0 0 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 00px;
+}
+
+.main-title {
+  font-size: 4em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 2em;
+  margin: 10px 0 0 0;
+}
+
+.slide-container {
+  position: relative;
+  overflow: hidden; /* Added to contain the scaled image */
+}
+
+.slide-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Scale image to cover the container */
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.slide-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  /* Transparent initially */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.slide-container .caption {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.slide-container:hover img {
+  /* Optional: Slight zoom effect on hover */
+  transform: scale(1.00);
+}
+
+.slide-container:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay on hover */
+  opacity: 1;
+}
+
+.slide-container:hover .caption {
+  opacity: 1;
+}
