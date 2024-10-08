@@ -7,7 +7,7 @@ export default function About() {
         <div className="about-section flex">
             <div className="about-content">
                 <img src="/photos/headshot.jpg" alt="Kaden Headshot" className="about-image" />
-                <p>
+                <p className="about-text">
                 Hi, I'm Kaden. I'm a full-stack engineer with a background in business and a creative, hard-working personality.<br/><br/>
 
 Guided by one of my favorite philosophies, Kaizen, or "change for the better," I'm committed to continuous improvement in all my endeavors, both personally and organizationally.<br/><br/>

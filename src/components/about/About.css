@@ -47,4 +47,8 @@
       text-align: left; /* This rule ensures text stays left-aligned */
     }
   }
+
+  .about-text {
+    margin-top: 50px;
+  }
   
