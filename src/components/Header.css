@@ -58,13 +58,4 @@
   color: #007bff;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Hide nav links on small screens */
-  }
 
-  .header-container {
-    justify-content: space-between;
-  }
-}
