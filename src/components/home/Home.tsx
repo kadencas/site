@@ -38,7 +38,7 @@ export default function Home() {
       {/* Top Half */}
       <div className="hero-section">
         <h1 className="main-title">KADEN CASANAVE</h1>
-        <h2 className="subtitle">Software Engineer</h2>
+        <h2 className="subtitle">Software Engineer, Creative</h2>
       </div>
 
       {/* Bottom Half - Slideshow */}

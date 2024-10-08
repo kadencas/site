@@ -2,16 +2,16 @@
 
 /* Container for the entire about section */
 .about-section {
-    padding: 20px;
+    padding: 65px;
     color: #ffffff;
     background-color: #1e1e1e; /* Match the dark grey styling */
   }
-  
   
   /* Flex container for image and text */
   .about-content {
     display: flex;
     align-items: center; /* Vertically centers the items */
+    font-size: large;
   }
   
   /* Image styling */
@@ -19,11 +19,16 @@
     width: 200px;
     height: 200;
     object-fit: cover;
-    margin-right: 20px; /* Space between image and text */
+    margin-right: 80px; /* Space between image and text */
     margin-left: 30%;
     margin-top: 20px;
   }
-
+  
+  /* Left-align paragraph text */
+  .about-section p {
+    text-align: left;
+    margin: 0; /* Optional: removes default margins for paragraphs */
+  }
   
   /* Responsive design: Stack items vertically on smaller screens */
   @media (max-width: 600px) {
@@ -36,6 +41,11 @@
     .about-image {
       margin-right: 0;
       margin-bottom: 0; /* Space between image and text when stacked */
+    }
+  
+    /* Ensure paragraphs remain left-aligned on smaller screens */
+    .about-section p {
+      text-align: left; /* This rule ensures text stays left-aligned */
     }
   }
   
