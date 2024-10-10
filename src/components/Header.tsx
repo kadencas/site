@@ -16,22 +16,6 @@ export default function Header() {
           <a href="/contact">Contact</a>
         </nav>
         </div>
-        <div className="social-icons">
-          <a
-            href="https://www.linkedin.com/in/kadencasanave/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a
-            href="https://github.com/kadencas"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github"></i>
-          </a>
-        </div>
       </div>
     </header>
   );
