@@ -4,6 +4,7 @@ import "./Contact.css"
 export default function Contact() {
     return (
         <div>
+            <h1 className="header-bg">Contact</h1>
             <div className="social-icons">
                 <a href="https://www.linkedin.com/in/kadencasanave/" target="_blank" rel="noopener noreferrer">
                     <img src="./photos/linked.jpg" alt="LinkedIn" className="icon" />

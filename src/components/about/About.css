@@ -16,6 +16,7 @@
     object-fit: cover;
     margin-right: 80px; 
     margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(63, 60, 60, 0.2);
   }
   
   .about-section p {
@@ -30,3 +31,9 @@
       text-align: center;
     }
   }
+
+  .header-bg {
+    background-color: #f9f9f9;
+    padding:25px;
+    margin:0;
+}
