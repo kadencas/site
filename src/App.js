@@ -4,7 +4,7 @@ import Home from './components/home/Home.tsx';
 import Header from './components/Header.tsx';
 import Footer from './Footer.tsx';
 import Contact from './components/contact/Contaxt.tsx';
-import Weather from './components/weather/Weather.tsx';
+
 
 import './App.css';
 import About from './components/about/About.tsx';
